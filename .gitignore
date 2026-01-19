@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+C*.md
+translations.json
 
 # debug
 npm-debug.log*

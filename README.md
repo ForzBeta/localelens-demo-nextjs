@@ -42,6 +42,43 @@ npm run dev
 
 No credentials are included in this repository. LocaleLens is the source of truth.
 
+---
+
+## How it works
+
+Translations are fetched server-side with a simple helper:
+
+```typescript
+// src/lib/i18n.ts 
+const { t, has } = await getTranslations(locale);
+
+t("app.title");    // returns translation, or the key if missing
+has("app.title");  // true/false
+```
+
+The locale comes from a `NEXT_LOCALE` cookie (defaults to `"en"`). Switching languages sets the cookie via a server action, which triggers a server re-render. That's the entire loop.
+
+Next.js caches the fetch for 60 seconds, so repeated requests are fast.
+
+---
+
+## Project structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx            # fetches translations, renders header
+│   ├── page.tsx              # home page
+│   ├── about/page.tsx        # another page (proves it scales)
+│   └── actions/set-locale.ts # server action for switching
+├── components/
+│   └── locale-switcher.tsx   # the EN/DE buttons
+└── lib/
+    └── i18n.ts               # getTranslations() lives here
+```
+
+---
+
 ### Quick Import (Optional)
 
 To quickly populate your LocaleLens project, copy and import this JSON via the LocaleLens UI.
@@ -95,39 +132,4 @@ This matches the keys used in the demo UI.
     "about.cache_friendly_detail": "Die Fetch-Revalidierung von Next.js übernimmt das Caching automatisch."
   }
 }
-```
-
----
-
-## How it works
-
-Translations are fetched server-side with a simple helper:
-
-```typescript
-// src/lib/i18n.ts 
-const { t, has } = await getTranslations(locale);
-
-t("app.title");    // returns translation, or the key if missing
-has("app.title");  // true/false
-```
-
-The locale comes from a `NEXT_LOCALE` cookie (defaults to `"en"`). Switching languages sets the cookie via a server action, which triggers a server re-render. That's the entire loop.
-
-Next.js caches the fetch for 60 seconds, so repeated requests are fast.
-
----
-
-## Project structure
-
-```
-src/
-├── app/
-│   ├── layout.tsx            # fetches translations, renders header
-│   ├── page.tsx              # home page
-│   ├── about/page.tsx        # another page (proves it scales)
-│   └── actions/set-locale.ts # server action for switching
-├── components/
-│   └── locale-switcher.tsx   # the EN/DE buttons
-└── lib/
-    └── i18n.ts               # getTranslations() lives here
 ```

